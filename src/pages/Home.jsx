@@ -15,7 +15,7 @@ function Home() {
             <main className="w-[80%] h-screen py-5 grid grid-cols-3 justify-center gap-4 pl-5 flex-wrap overflow-y-auto">
                 {
                     products.map((p, idx) => (
-                        <Card product = {p}/>
+                        <Card key={idx} product = {p}/>
                     ))
                 }
             </main>
