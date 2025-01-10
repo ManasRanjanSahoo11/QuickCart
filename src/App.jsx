@@ -1,6 +1,7 @@
 import { Routes, Route, Link, useLocation } from "react-router-dom"
 import Home from "./pages/Home"
 import Details from "./pages/Details"
+import Create from "./components/Create"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/details/:productId" element={<Details />} />
+        <Route path="/create" element={<Create />} />
       </Routes>
     </>
   )

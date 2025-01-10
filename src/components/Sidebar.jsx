@@ -22,7 +22,7 @@ function Sidebar() {
 
     return (
         <div className='w-[19%] h-screen bg-gray-600  flex items-center flex-col pt-5'>
-            <a href="" className='border px-9 py-3 hover:bg-gray-500 transition-all ease-in-out rounded-sm inline-block my-5'>
+            <a href="/create" className='border px-9 py-3 hover:bg-gray-500 transition-all ease-in-out rounded-sm inline-block my-5'>
                 Add new product
             </a>
             <hr className='my-2 w-full border-' />
